@@ -2,8 +2,8 @@ import { IAdminRoutes } from "./interfaces";
 export const BASE_URL = "http://localhost";
 
 export const admin: IAdminRoutes = {
-  CREATEGAME: "/Games CRUD/pruebaphpapi/game/create",
-  UPDATEGAME: "/Games CRUD/pruebaphpapi/game/update",
-  CONSOLES: "/Games CRUD/pruebaphpapi/game/consoles",
-  GETGAMEBYID: "/Games CRUD/pruebaphpapi/game/gamesById"
+  CREATEGAME: "/Games_CRUD_DTST/pruebaphpapi/game/create",
+  UPDATEGAME: "/Games_CRUD_DTST/pruebaphpapi/game/update",
+  CONSOLES: "/Games_CRUD_DTST/pruebaphpapi/game/consoles",
+  GETGAMEBYID: "/Games_CRUD_DTST/pruebaphpapi/game/gamesById"
 };

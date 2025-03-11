@@ -12,7 +12,7 @@ require_once(__DIR__ . "/infraestructure/middleware.php");
 header("Access-Control-Allow-Origin: *");
 header("Access-Control-Allow-Methods: GET, POST, PUT, DELETE, OPTIONS");
 
-try{  
+try{
   $router = new Router();
   $response = $router->matchRoute($uri);
   Middleware::jsonMiddleware($response);
